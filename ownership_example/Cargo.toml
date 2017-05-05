@@ -1,0 +1,6 @@
+[package]
+name = "ownership_example"
+version = "0.1.0"
+authors = ["Martin Habovštiak <martin.habovstiak@gmail.com>"]
+
+[dependencies]
