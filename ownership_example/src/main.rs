@@ -7,7 +7,7 @@ fn main() {
     //  ^
     //  |
     //  This owns the Vec now
-    //  `a` doesn'ŧ own the Vec now.
+    //  `a` doesn't own the Vec now.
 
     // Uncomment the line bellow, if you wanna see compile fail.
     //println!("a is now: {:?}", a); // {:?} means show as debug instead of normal, user-facing
