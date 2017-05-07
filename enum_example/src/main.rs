@@ -11,6 +11,8 @@ enum RemainingTopics {
 }
 
 fn main() {
+    // If you wonder how big the enum is, from now now you won't.
+    println!("Size of RemainingTopics is: {}", std::mem::size_of::<RemainingTopics>());
     // This is how we create values of enum types.
     let enums = RemainingTopics::Enums(42);
     let matches = RemainingTopics::Matches { on_fire: false, on_steroids: true };
