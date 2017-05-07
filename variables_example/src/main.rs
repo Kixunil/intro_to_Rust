@@ -19,7 +19,7 @@ fn main() {
 //
 // So what does `println!("The answer is: {}", the_answer)` mean?
 // The curly braces inside zeroth macro argument tell Rust that a displayable value should go
-// there. The first argument is our variable. The variable is actually of type u32 and that type is
+// there. The first argument is our variable. The variable is actually of type i32 and that type is
 // displayable.
 //
 // Ok, enough talking, let's compute the Question. See ownership_example.
