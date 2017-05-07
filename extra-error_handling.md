@@ -33,7 +33,7 @@ But this is very common pattern:
 ```rust
 let file = match open_file(file_name) {
     Ok(file) => file, // See that we don't have to write Result::Ok? Rust already brought us Ok in scope.
-                      // We could do the same thing with use `MyResult::{MyOk, MyErr};` or simply `use MyResult::*;`
+                      // We could do the same thing with `use MyResult::{MyOk, MyErr};` or simply `use MyResult::*;`
     Err(error) => return error.into(), // into is conversion method from `Into` trait.
 }
 ```
@@ -52,7 +52,7 @@ let file = open_file(file_name)?; // This does the exact same thing as the code 
 
 This is nice because when reading, one sees operation first and worries about error handling second. Also this:
 ```rust
-let value = open_file(file_name).read_all()?.deserialize()?;
+let value = open_file(file_name)?.read_all()?.deserialize()?;
 ```
 
 is much nicer than this:
