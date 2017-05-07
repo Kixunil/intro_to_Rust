@@ -1,7 +1,7 @@
 Introduction to Rust
 ====================
 
-This repository contains material for Rust workshop which will be held in [Progressbar hackerspace](https://progressbar.sk).
+This repository contains material for Rust workshop which was held in [Progressbar hackerspace](https://progressbar.sk).
 
 Setup
 -----
