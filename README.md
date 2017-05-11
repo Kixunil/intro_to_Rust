@@ -130,4 +130,4 @@ Try to guess this one, is it end of `main()` function or it isn't?
 
 Of course it is.
 
-Now, let's look at something [more interesting](variables_example/README.md).
+Now, let's look at something [more interesting](01_variables_example/README.md).
